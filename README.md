@@ -4,7 +4,9 @@
     cd src
     sudo python2 -m SimpleHTTPServer 80
 
-> your computer has to be resolvable as `a` in your network
+> your computer has to be resolvable as `a` in your network.
+> your network must not have internet connectivity.
+> The `WIFI_NO_NET_PROBE` file ensures that kindle will not try to connect to amazon servers
 
 * touch `WIFI_NO_NET_PROBE` at root of your kindle
 * copy `jb` file to root of your kindle
